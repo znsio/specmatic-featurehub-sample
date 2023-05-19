@@ -1,0 +1,37 @@
+openapi: 3.0.1
+info:
+  title: Feature Hub
+  version: "1"
+paths:
+  /store/isOpen:
+    get:
+      summary: Is Store Open
+      parameters:
+        - schema:
+            type: string
+          in: header
+          name: Accept-Charset
+          examples:
+            FEATURE_FLAG_ON:
+              value: "UTF-8"
+            FEATURE_FLAG_OFF:
+              value: "UTF-8"
+      responses:
+        "200":
+          description: "Success"
+          content:
+            text/plain:
+              schema:
+                type: string
+              examples:
+                FEATURE_FLAG_ON:
+                  value: "Yes, the store is open for shopping"
+        "501":
+          description: "Not Implemented"
+          content:
+            text/plain:
+              schema:
+                type: string
+              examples:
+                FEATURE_FLAG_OFF:
+                  value: "No, the store is under construction yet"

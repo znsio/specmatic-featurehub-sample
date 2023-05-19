@@ -1,0 +1,5 @@
+{
+  "event": "features",
+  "id": "332f8278",
+  "data": "[{\"id\":\"532657c7-740c-48ee-bc9d-9e101506965a\",\"key\":\"IsStoreOpenFeatureFlag\",\"l\":true,\"version\":1,\"type\":\"BOOLEAN\",\"value\":false}]"
+}

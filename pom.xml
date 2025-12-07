@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>in.specmatic</groupId>
 			<artifactId>junit5-support</artifactId>
-			<version>0.65.1</version>
+			<version>0.81.2</version>
 			<scope>test</scope>
 		</dependency>
 
